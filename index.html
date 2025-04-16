@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Форматування таблиць</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Форматовані таблиці</h1>
+    
+    <h2>Звичайна таблиця</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>№</th>
+                <th>Ім'я</th>
+                <th>Вік</th>
+                <th>Місто</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Степан</td>
+                <td>23</td>
+                <td>Київ</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Максим</td>
+                <td>25</td>
+                <td>Запоріжжя</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Нікіта</td>
+                <td>21</td>
+                <td>Кривий Ріг</td>
+            </tr>
+        </tbody>
+    </table>
+    
+    <h2>Таблиця з об'єднаними комірками</h2>
+    <table>
+        <thead>
+            <tr>
+                <th colspan="2">Інформація</th>
+                <th>Деталі</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Ім'я</td>
+                <td>Артем</td>
+                <td rowspan="2">Програміст</td>
+            </tr>
+            <tr>
+                <td>Вік</td>
+                <td>23</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
